@@ -9,3 +9,6 @@ def getSum(x, y):
     tokens = tokenizer.encode(text)
   
     return np.sum(a) + getSumTwo() + len(tokens)
+
+def getSumThree():
+    return 3
